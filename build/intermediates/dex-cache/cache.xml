@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\foram\Downloads\ShareImageSrc\ShareImage2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="C:\Users\foram\Downloads\ShareImageSrc\ShareImage2\app\build\intermediates\pre-dexed\debug\classes-7102a7820eb4144c854cbea74b4dea76dba33f88.jar" />
+    </item>
+    <item
+        jar="C:\Users\foram\Downloads\ShareImageSrc\ShareImage2\app\libs\universal-image-loader-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f667a2f4f27542fe11a6781f5f7ac572d27afcec">
+        <dex dex="C:\Users\foram\Downloads\ShareImageSrc\ShareImage2\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.0-75e08d6b8e8a92004b7e1429cdc9bbd9300fc404.jar" />
+    </item>
+    <item
+        jar="C:\Users\foram\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\foram\Downloads\ShareImageSrc\ShareImage2\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-f6e1cffd3b8ff352718042093de14b7e7d3295c2.jar" />
+    </item>
+
+</items>

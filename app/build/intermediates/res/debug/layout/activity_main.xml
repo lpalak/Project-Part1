@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#089F8C" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/mybutton"
+            android:text="Camera"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnGallery"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutton"
+            android:text="Gallery"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnMulti"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutton"
+            android:text="Multiple Image"
+            android:textColor="#ffffff" />
+
+         <Button
+            android:id="@+id/btnShareApp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutton"
+            android:text="Share App"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnChat"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutton"
+            android:text="Chat"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnVideoChat"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutton"
+            android:text="Video Chat"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnQuit"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutton"
+            android:text="Quit"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/foram/Downloads/ShareImageSrc/ShareImage2/app/src/main/res/layout/activity_main.xml -->

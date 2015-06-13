@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#089F8C"
+    tools:context=".SplashActivity" >
+    
+    <RelativeLayout
+       	 android:id="@+id/rlSplash"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+             
+             <Button
+                android:id="@+id/buttonCloseAd"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:onClick="closeSplash"/>
+
+             <ProgressBar
+                 android:id="@+id/progressBarSplash"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentTop="true"
+                 android:visibility="gone"
+                 android:layout_centerHorizontal="true"
+                 android:layout_marginTop="69dp" />
+
+             <ImageView
+                 android:id="@+id/imageViewSplash"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerHorizontal="true"
+                 android:layout_centerVertical="true"
+                 android:background="@drawable/unnamed"
+                 android:clickable="true" />
+
+             <ImageView
+                 android:id="@+id/imageView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_above="@+id/imageViewSplash"
+                 android:layout_centerHorizontal="true"
+                 android:layout_marginBottom="26dp"
+                 android:src="@drawable/name" />
+
+         </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/foram/Downloads/ShareImageSrc/ShareImage2/app/src/main/res/layout/activity_splash.xml -->
